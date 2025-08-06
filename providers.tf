@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "github" {
-  owner = "sweavers-ukhsa"
+  owner = var.github_username
 }

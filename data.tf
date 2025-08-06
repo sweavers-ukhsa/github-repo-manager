@@ -1,3 +1,3 @@
 data "github_user" "this" {
-  username = "sweavers-ukhsa"
+  username = var.github_username
 }

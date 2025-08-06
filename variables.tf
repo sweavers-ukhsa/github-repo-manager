@@ -45,3 +45,7 @@ variable "has_downloads" {
   type    = bool
   default = false
 }
+
+variable "github_username" {
+  type = string
+}
